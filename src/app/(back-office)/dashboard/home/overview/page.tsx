@@ -1,8 +1,13 @@
+import DashboardBanner from '@/components/dashboard/DashboardBanner'
+import SalesOverview from '@/components/dashboard/SalesOverview'
 import React from 'react'
 
 const Dashboard = () => {
   return (
-    <div>dashboaard</div>
+    <div>
+      <DashboardBanner/>
+      <SalesOverview/>
+    </div>
   )
 }
 

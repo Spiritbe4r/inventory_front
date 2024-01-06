@@ -1,12 +1,13 @@
 import Header from '@/components/dashboard/Header'
+import Sidebar from '@/components/dashboard/Sidebar'
 import React from 'react'
 
 const Layout = ({ children }: any) => {
   return (
     <div className='flex'>
-      <div className="w-56 min-h-screen bg-slate-900 text-slate-50">sidebar
-      </div>
-      <main className='w-full bg-slate-100 min-h-screen'>
+            <Sidebar/>
+  
+      <main className="ml-60 w-full bg-slate-100 text-slate-600 min-h-screen">
         <Header/>
         {children}</main>
     </div>
